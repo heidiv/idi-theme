@@ -1,1 +1,12 @@
 This is the Wordpress theme for inclusivedesign.ca, the website of the Inclusive Design Institute.
+
+
+For video player within IDI site (IDI-104):
+
+	Clone videoplayer into wp-content/themes/idi-theme/lib
+	In wp admin area, create top-level page "Media" and assign template "Media" to it
+	
+	header.php: temporary, includes video player files and changes to UIO. Copy back to wp-fss-theme when VP is ready.
+	media.php:	media page with video player content
+	sidebar-media.php:	sidebar for media page
+	/videos: 	video files for media page
