@@ -83,7 +83,7 @@ When that happens the videoplayer URLS will need to be changed to reference the 
 			tocTemplate: "<?php bloginfo('template_url'); ?>/infusion/components/tableOfContents/html/TableOfContents.html"
 		});
 	
-		var uiOptions = fluid.uiOptions.fatPanel(".flc-uiOptions-fatPanel", {
+		var uiOptions = fluid.uiOptions.fatPanel.withMediaPanel(".flc-uiOptions-fatPanel", {
 			prefix: "<?php bloginfo('template_url'); ?>/infusion/components/uiOptions/html/",	
 			components: {
 				relay: {
